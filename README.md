@@ -1,8 +1,8 @@
 # visual-regression-testing-framework
 Free Visual Regression Testing Framework - Ready To Use
-A visual testing framework created using backstopjs library and ready to use.
+A visual testing framework created using [BackstopJS](https://github.com/garris/BackstopJS) library and ready to use.
  You simply add the URLs to be tested and it will test.
- 
+
 ---
 #### Getting started
 - git clone this repository
@@ -21,7 +21,6 @@ module.exports = [
   }
 ]; 
 ```
-
 3. You are Done. Run `npm run test`
 4. The Test will saying `It doesn't have any reference image for signup page` .
 5. Run `npm run approve` and it will take the current result as reference.
