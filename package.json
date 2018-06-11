@@ -1,0 +1,56 @@
+{
+  "name": "visual-regression-testing-framework",
+  "version": "1.0.0",
+  "description": "UI Visual Regression Tests Framework - Ready to use",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "prettify": "prettier --single-quote \"./src/**/*.js\" --write",
+    "test": "node src/runtests.js",
+    "approve": "node src/approvetests.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vininaag/visual-regression-testing-framework.git"
+  },
+  "author": "<Nagender B> Naagvideoz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.16.2",
+    "backstopjs": "3.0.32",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "4.4.1",
+    "eslint-config-prettier": "2.7.0",
+    "eslint-plugin-prettier": "2.3.1",
+    "prettier": "1.7.4"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true
+        }
+      ]
+    }
+  }
+}
