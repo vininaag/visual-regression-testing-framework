@@ -11,7 +11,8 @@ A visual testing framework created using backstopjs library and ready to use.
 #### Add your tests
 1. Lets try to do github signup page
 2. Copy paste below code in a file(create) `signup.tests.js` under `src\tests` folder
-```module.exports = [
+```
+module.exports = [
   {
     label: 'Githum SignUp Page',
     url: 'https://github.com/join',
