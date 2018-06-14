@@ -5,7 +5,7 @@ A visual testing framework created using [BackstopJS](https://github.com/garris/
 
 ---
 ## Contents
-1. ##### [[Install]][install]
+1. ##### [Install][install]
 2. ##### [Add New Test][add-new-test-1]
 3. ##### [Add Reference Image][add-reference-image-1]
 4. ##### [Run your tests][run-the-tests]
