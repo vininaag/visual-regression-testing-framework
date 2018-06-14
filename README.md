@@ -5,10 +5,10 @@ A visual testing framework created using [BackstopJS](https://github.com/garris/
 
 ---
 ## Contents
-1. ##### Installation
-2. ##### Add new test
-3. ##### Add reference image
-4. ##### Run you tests
+1. ##### [[Install]][install]
+2. ##### [Add New Test][add-new-test-1]
+3. ##### [Add Reference Image][add-reference-image-1]
+4. ##### [Run your tests][run-the-tests]
 
 #### Install
 - git clone this repository
@@ -58,3 +58,8 @@ Complete report will look like below
 
 ------------
 
+
+[add-new-test-1]: #add-new-test-1 "Add new test"
+[install]: #install "Installation"
+[add-reference-image-1]: #add-reference-image-1 "Add Reference Image"
+[run-the-tests]: #run-the-tests "Run you tests"
