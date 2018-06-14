@@ -11,8 +11,8 @@ A visual testing framework created using [BackstopJS](https://github.com/garris/
 4. ##### [Run your tests][run-the-tests]
 
 #### Install
-- git clone this repository
-- npm install
+- Clone this repo `git clone https://github.com/vininaag/visual-regression-testing-framework.git`
+- `npm install`
 
 #### Add new test
 1. Lets try to do github signup page `https://github.com/join`
